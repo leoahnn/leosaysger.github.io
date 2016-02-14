@@ -4,8 +4,10 @@ title:  "First Steps"
 date:   2016-02-14 12:46:14 -0500
 categories: blog code
 ---
-I recently enrolled a coding bootcamp with [Viking Code School].
+One of the most difficult parts of learning something new is the paring of the wheat from the chaff.  
+Luckily, I've been able to find a few good resources to sink my teeth into.
 I've been learning Ruby through [The Odin Project] and Javascript through [FreeCodeCamp].
+And I recently enrolled [Viking Code School], a bootcamp that focuses on fullstack dev.
 
 {% highlight ruby %}
 def print_hi(name)
@@ -23,7 +25,7 @@ print_hi("Tom");
 //=> prints 'Hi, Tom' to STDOUT.
 {% endhighlight %}
 
-lion! 
+GER!
 
 ![picture]({{ site.url }}/assets/lion.png)
 

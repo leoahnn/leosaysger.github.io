@@ -4,14 +4,13 @@ title:  "First Steps"
 date:   2016-02-14 12:46:14 -0500
 categories: blog code
 ---
-One of the most difficult parts of learning something new is discerning what resources are worth your time. The process of paring the wheat from the chaff can be tedious and time consuming, but it's one of the more important parts of beginning anything novel. In trying to delve into the world of development, the sheer volume of resources/articles/tutorials out there can be a little daunting.
+One of the most difficult parts of learning something new is discerning what resources are worth your time. The process of paring the wheat from the chaff can be tedious and time consuming, but it's one of the more important parts of beginning anything novel.
+Delving into the world of development, the sheer volume of resources/articles/tutorials out there can be a little daunting.
 
 Luckily, I've been able to find a few good resources to begin building a foundation.
 <!--more-->
 
-I've been learning Ruby through [The Odin Project] and Javascript through [FreeCodeCamp].
-
-And I recently enrolled [Viking Code School], a bootcamp that focuses on fullstack dev.
+I've been learning Ruby through [The Odin Project] and Javascript through [FreeCodeCamp]. And I recently enrolled [Viking Code School], a bootcamp that focuses on fullstack dev.
 
 <br>
 {% highlight ruby %}

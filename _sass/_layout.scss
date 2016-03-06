@@ -25,7 +25,7 @@
 }
 
 .site-logo {
-    height: 56px;
+    height: 52px;
 }
 
 /* .site-nav {
@@ -181,7 +181,7 @@
 }
 
 .post-list {
-    margin-left: 0;
+    margin: $spacing-unit 0px $spacing-unit*3;
     list-style: none;
 
     > li {
@@ -205,7 +205,7 @@
  * Posts
  */
 .post-header {
-    margin-bottom: $spacing-unit;
+    margin: $spacing-unit 0;
 }
 
 .post-title {
@@ -220,7 +220,7 @@
 }
 
 .post-content {
-    margin-bottom: $spacing-unit * 25;
+    margin-bottom: $spacing-unit * 20;
 
     h2 {
         font-size: 32px;

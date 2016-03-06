@@ -10,4 +10,4 @@ Regardless, It's a big commitment and I plan on making the most of it.
 <br>
 {% highlight shell %}
   git.commit -m "time"
-{% end highlight %}
+{% endhighlight %}

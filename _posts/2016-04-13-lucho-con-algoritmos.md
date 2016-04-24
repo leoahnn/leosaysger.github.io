@@ -40,7 +40,7 @@ function swap(one, two){
 
 Even after getting the code to do what I wanted it to do, it took a little while before the nature of the algorithm clicked in my head. There's something about recursion that throws my mind for a loop (cue rimshot), so I'm going to write out what I think is happening for my own edification.
 
-So lets say we're given the string "abc". The generate function will kick down in a branch where n = 3 and i = 0, until n = 1. When n = 1, the first string, "abc", is pushed into the permutations array. After storing the first item, the function will resolve and continue the if statement in the for-loop with n = 2 and i = 0 (still on the n = 3 | i = 0 branch).
+So lets say we're given the string "abc". The generate function will kick down in a branch where n = 3 and i = 0, until n = 1. When n = 1, the first string, "abc", is pushed into the permutations array. After storing the first item, the function will resolve and continue the if statement in the for-loop with n = 2 and i = 0 (still on the n = 3 / i = 0 branch).
 
 {% highlight javascript %}
 for(var i = 0; i < n; i++){

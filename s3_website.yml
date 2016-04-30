@@ -5,4 +5,13 @@ s3_bucket: leoahnn.com
 s3_endpoint: us-west-2
 
 
-# gzip:
+gzip:
+  - .css
+  - .html
+  - .md
+  - .svg
+  - .js
+
+exclude_from_upload:
+  - Gemfile
+  - Gemfile.lock

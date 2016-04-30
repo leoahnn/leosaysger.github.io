@@ -4,33 +4,9 @@ layout: default
 
 <div class="home">
 
-  <ul class="post-list">
-    {% for post in paginator.posts %}
-      <li>
-        <h2>
-          <a class="post-link title-font" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
-        </h2>
-        <p class="post-meta">{{ post.date | date: "%b %-d, %Y" }}</p>
-      </li>
-        {{ post.excerpt }}
-        {% if post.content contains "<!--more-->" %}
-        <br>
-        <a class="title-font" href="{{ post.url }}">Read more...</a>
-        {% endif %}
-        <br><br>
-    {% endfor %}
-  </ul>
+<h1>Welcome</h1>
 
-  <!-- Pagination links -->
-  <div class="pagination">
-    {% if paginator.previous_page %}
-      <a href="{{ paginator.previous_page_path }}" class="previous">Previous</a>
-    {% endif %}
-    <span class="page_number ">{{ paginator.page }} of {{ paginator.total_pages }}</span>
-    {% if paginator.next_page %}
-      <a href="{{ paginator.next_page_path }}" class="next">Next</a>
-    {% endif %}
-  </div>
+<a href="/blog/">BLOG</a>
 
 
 </div>

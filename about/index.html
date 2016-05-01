@@ -1,0 +1,26 @@
+---
+layout: default
+---
+
+<h2>stuff about me:</h2>
+
+<p>I am <a href="/blog/">learning</a> about full stack web development. My preferred languages include Ruby and Javascript. I have experience using Rails, Node, Angular, and Express</p>
+<p>I enjoy climbing, reading, and watching movies.</p>
+<p>I have <a href="https://www.linkedin.com/in/leo-ahnn-8b25a110a
+">experience</a> in education, consulting, and patent law.</p>
+<p>I currently reside in the DC metro area.</p>
+<br>
+<h2>say hello:</h2>
+<ul class="social-media-list">
+  {% if site.twitter_username %}
+    <li class="title-font">
+      {% include icon-twitter.html username=site.twitter_username %}
+    </li>
+  {% endif %}
+<!--     <li class="title-font">
+    {% include icon-linkedin.html %}
+    </li> -->
+    <li class="title-font">
+    {% include icon-email.html username=site.email%}
+    </li>
+</ul>

@@ -212,3 +212,13 @@ pre {
         }
     }
 }
+
+
+// construction
+#future-project{
+    display: none;
+    border: 1px solid #ccc;
+}
+.construction:hover #future-project{
+    display: inline-block;
+}

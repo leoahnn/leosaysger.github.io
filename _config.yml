@@ -11,7 +11,7 @@ email: leoahnn@gmail.com
 description: > # this means to ignore newlines until "baseurl:"
   Leo codesbaseurl: "" # the subpath of your site, e.g. /blog
 url: "http://leoahnn.com" # the base hostname & protocol for your site
-twitter_username:
+twitter_username: leoahnn
 github_username:  leosaysger
 excerpt_separator: <!--more-->
 paginate: 4

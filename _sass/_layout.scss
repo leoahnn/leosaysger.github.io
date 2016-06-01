@@ -194,3 +194,24 @@
     margin-left: $spacing-unit;
   }
 }
+
+//home
+
+.home {
+    background-image: url("/assets/win31default.png");
+    height: 336px;
+    width: 512px;
+}
+.icon-group {
+    padding: 85px 25px;
+}
+
+.home-icon {
+    width: 52px;
+    text-align: center;
+    display: inline-block;
+}
+.icon-font {
+    font-family: $icon-font-family;
+    font-size: 16px;
+}

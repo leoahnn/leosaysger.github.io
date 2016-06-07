@@ -50,6 +50,3 @@ DEPENDENCIES
   jekyll
   jekyll-paginate
   s3_website
-
-BUNDLED WITH
-   1.11.2

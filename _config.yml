@@ -8,8 +8,7 @@
 # Site settings
 title: Leo
 email: leoahnn@gmail.com
-description: > # this means to ignore newlines until "baseurl:"
-  Leo codesbaseurl: "" # the subpath of your site, e.g. /blog
+description: "Leo Ahnn's Site"
 url: "http://leoahnn.com" # the base hostname & protocol for your site
 twitter_username: leoahnn
 github_username:  leosaysger

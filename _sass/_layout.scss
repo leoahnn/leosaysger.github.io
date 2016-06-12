@@ -198,9 +198,14 @@
 //home
 
 .home {
+    position:absolute;
+    left:20%;
+    top:250px;
     background-image: url("/assets/win31default.png");
     height: 336px;
     width: 512px;
+    max-width:100%;
+    overflow:hidden;
 }
 .icon-group {
     padding: 85px 25px;

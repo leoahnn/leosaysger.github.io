@@ -212,13 +212,62 @@ pre {
         }
     }
 }
-
-
-// construction
-#future-project{
-    display: none;
-    border: 1px solid #ccc;
+//js.type
+#terminal {
+    border-radius: 10px;
+    background-color:black;
+    height: 220px;
+    width: 420px;
+    max-width:100%;
+    padding: 0px 15px;
 }
-.construction:hover #future-project{
+.element {
+    font-family: Courier;
+    font-size: $base-font-size*.9;
+    color:white;
+    display:inline;
+}
+.typed-cursor{
+    color:white;
     display: inline-block;
+    opacity: 1;
+    -webkit-animation: blink 0.7s infinite;
+    -moz-animation: blink 0.7s infinite;
+    animation: blink 0.7s infinite;
+}
+.type-link {
+    color:limegreen;
+    display:inline;
+    &:hover{
+        color:white;
+    }
+}
+
+#title-text {
+    font-family: Courier;
+}
+
+#title-bar {
+    text-align: center;
+    margin: 0px -15px;
+    font-size: 15px;
+    border-top-left-radius: 9px;
+    border-top-right-radius: 9px;
+    background-image: -webkit-linear-gradient(top, #e8e8e8, #bcbbbc);
+}
+
+@keyframes blink{
+    0% { opacity:1; }
+    50% { opacity:0; }
+    100% { opacity:1; }
+}
+@-webkit-keyframes blink{
+    0% { opacity:1; }
+    50% { opacity:0; }
+    100% { opacity:1; }
+}
+@-moz-keyframes blink{
+    0% { opacity:1; }
+    50% { opacity:0; }
+    100% { opacity:1; }
 }

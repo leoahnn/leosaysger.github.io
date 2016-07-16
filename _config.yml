@@ -6,10 +6,10 @@
 # 'jekyll serve'. If you change this file, please restart the server process.
 
 # Site settings
-title: Leo Ahnn
+title: Leo
 email: leoahnn@gmail.com
 description: "Leo Ahnn's Site"
-url: "http://leoahnn.com" # the base hostname & protocol for your site
+url: "http://leoahnn.com" 
 twitter_username: leoahnn
 github_username:  leosaysger
 excerpt_separator: <!--more-->

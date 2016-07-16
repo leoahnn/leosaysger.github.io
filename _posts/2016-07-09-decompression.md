@@ -6,7 +6,7 @@ categories: blog code
 ---
 Week One is done! Here's what I've done/learned in the past four days:
 
-  - Thinking modularly and pseudocoding well will save your butt down the line.   
+  - Thinking modularly and pseudo-coding well will save your butt down the line.   
   - Pair programming provides ample motivation in the form of "man, I have to catch up" or "whoa, I didn't know you could do that".
   - My terminal and text-editor prowess has improved but there's still a long way to go.
   - A.I. is hard

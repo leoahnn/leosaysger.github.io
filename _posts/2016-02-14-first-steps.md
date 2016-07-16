@@ -10,7 +10,7 @@ Delving into the world of development, the sheer volume of resources/articles/tu
 Luckily, I've been able to find a few good resources to begin building a foundation.
 <!--more-->
 
-I've been learning Ruby through [The Odin Project] and Javascript through [FreeCodeCamp]. And I recently enrolled [Viking Code School], a bootcamp that focuses on fullstack dev.
+I've been learning Ruby through [The Odin Project] and Javascript through [FreeCodeCamp]. And I recently enrolled [Viking Code School], a bootcamp that focuses on full-stack dev.
 
 <br>
 {% highlight ruby %}

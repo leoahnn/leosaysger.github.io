@@ -5,7 +5,7 @@ date:   2016-07-18 09:00:00 -0500
 categories: blog code algorithms
 ---
 
-1, 11, 21, 1221, _____
+1, 11, 21, 1211, _____
 
 What comes next?
 
@@ -56,8 +56,13 @@ However, there is some optimization that can be done using regex. If we break up
 <br>
 
 {% highlight ruby %}
-def look_and_say
-  gsub(/(.)\1*/){|s| "#{s.size}#{s[0,1]}"}
+
+def look_and_say(n)
+  str = "1"
+  (n-1).times do
+    str = str.gsub(/(.)\1*/){|s| "#{s.size}#{s[0,1]}"}
+  end
+  str
 end
 
 {% endhighlight %}

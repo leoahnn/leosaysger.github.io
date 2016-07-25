@@ -9,7 +9,7 @@ categories: blog code algorithms
 
 What comes next?
 
-I was first shown this sequence in 5th grade with a "no homework pass" prize to anyone who could figure out the next number in the sequence.
+My teacher in 5th grade gave the class this puzzle with the promise of a "no homework pass" to anyone who could figure out the next number in the sequence.
 
 None of us got out of homework that day, but I thought it would be interesting to revisit this problem with the help of algorithms.
 

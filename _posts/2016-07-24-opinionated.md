@@ -2,7 +2,7 @@
 layout: post
 title:  "Opinionated"
 date:   2016-07-24 09:00:00 -0500
-categories: blog
+categories: blog, code
 ---
 
 My life has been a pretty consistent stream of code, talking about code, and looking at code related things for the past month or so. It's also been a unique opportunity to step back and start to make out the outlines of coding as a culture.

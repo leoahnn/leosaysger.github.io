@@ -413,4 +413,11 @@
     };
 
 
+    $(".button").click(function(){
+        $(".empty-window").show(250);
+    });
+    $("#close").click(function(){
+        $(".empty-window").hide(250);
+    });
+
 }(window.jQuery);

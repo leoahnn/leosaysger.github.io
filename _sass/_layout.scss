@@ -210,15 +210,38 @@
 .icon-group {
     padding: 85px 25px;
 }
+.project-group {
+    padding: 40px 25px;
+}
 
 .home-icon {
-    width: 52px;
+    width: 75px;
     text-align: center;
     display: inline-block;
+    img {
+      margin-bottom: 4px;
+    }
 }
+
 .icon-font {
     font-family: $icon-font-family;
     font-size: 16px;
+}
+.empty-window {
+  position:absolute;
+  background-image: url("/assets/win31_empty.png");
+  height: 202px;
+  width: 417px;
+  left: 10%;
+  top: 500px;
+  overflow: hidden;
+  display: none;
+}
+#close {
+  height: 20px;
+  width: 20px;
+  margin: 5px;
+  display: inline-block;
 }
 
 // about

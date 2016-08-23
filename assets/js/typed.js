@@ -414,7 +414,7 @@
 
 
     $(".button").click(function(){
-        $(".empty-window").show(250);
+        $(".empty-window").toggle(250);
     });
     $("#close").click(function(){
         $(".empty-window").hide(250);

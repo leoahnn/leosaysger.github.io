@@ -6,7 +6,7 @@ categories: blog code algorithms
 ---
 
 
-I've been trying to crack this [problem], which on its face is relatively simple. The goal is to permute a string and count all the permutations that do not have consecutive repeating characters. The check for consecutive repeats is a pretty easy regex comparison. The tricky part is coming up with an algorithm to permute a string.
+I've ben trying to crack this [problem], which on its face is relatively simple. The goal is to permute a string and count all the permutations that do not have consecutive repeating characters. The check for consecutive repeats is a pretty easy regex comparison. The tricky part is coming up with an algorithm to permute a string.
 
 After mucking around for a bit, I found [Heap's algorithm], which looks to be the one of the more efficient ways to generate permutations through code.
 

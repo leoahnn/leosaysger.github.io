@@ -222,6 +222,21 @@
       margin-bottom: 4px;
     }
 }
+.project-icon {
+    width: 70px;
+    text-align: center;
+    display: inline-block;
+    img {
+      margin-bottom: 4px;
+    }
+}
+.description-font {
+    font-family: $icon-font-family;
+    font-size: 18px;
+    float: right;
+    margin-top: 8px;
+    width: 270px;
+}
 
 .icon-font {
     font-family: $icon-font-family;
@@ -229,10 +244,10 @@
 }
 .empty-window {
   position:absolute;
-  background-image: url("/assets/win31_empty.png");
-  height: 202px;
-  width: 417px;
-  left: 40%;
+  background-image: url("/assets/win31_large_empty.png");
+  height: 400px;
+  width: 416px;
+  left: 30%;
   top: 500px;
   overflow: hidden;
 }

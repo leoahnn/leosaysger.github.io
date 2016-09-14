@@ -1,0 +1,32 @@
+* {
+    margin: 0;
+    padding: 0;
+    line-height: 0;
+}
+
+.cell {
+    height: 18px;
+    width: 18px;
+    border: solid black 1px;
+    display: inline-block;
+}
+
+.snake {
+    background-color: darkgreen;
+}
+
+.food {
+    background-color: red;
+}
+
+.row {
+    display: block;
+}
+
+.game-over {
+    font-family: "Oswald", Helvetica, Arial, sans-serif;
+}
+
+#game-grid {
+    margin: 32px;
+}

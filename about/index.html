@@ -4,23 +4,12 @@ layout: default
 <img src="/assets/profile.JPG">
 <h2>stuff about me:</h2>
 <ul>
-<li>I am an engineer turned full-stack developer residing in the DC metro area.</li>
+<li>I am an engineer turned software engineer residing in the DC metro area.</li>
 <li>I have <a href="https://www.linkedin.com/in/leo-ahnn-8b25a110a
 ">experience</a> in education, technology consulting, and patent law.</li>
-<li>I enjoy rock climbing, reading, and watching movies.</li>
+<li>I like rock climbing, coffee, and squirrels.</li>
 </ul>
 <hr>
-<h2>say hello:</h2>
-<ul class="social-media-list">
-  {% if site.twitter_username %}
-    <li class="title-font">
-      {% include icon-twitter.html username=site.twitter_username %}
-    </li>
-  {% endif %}
-<!--     <li class="title-font">
-    {% include icon-linkedin.html %}
-    </li> -->
-    <li class="title-font">
-    {% include icon-email.html username=site.email%}
-    </li>
-</ul>
+<div class="icon">
+  {% include icon-email.html username=site.email%}
+</div>

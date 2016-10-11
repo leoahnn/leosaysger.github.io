@@ -152,7 +152,8 @@
             // ------------- optional ------------- //
             // backpaces a certain string faster
             // ------------------------------------ //
-            if (self.arrayPos == 2){
+            // backspaces shameless self promotion
+            if (self.arrayPos == 1){
              self.backDelay = 50;
              self.stopNum = 13;
             }

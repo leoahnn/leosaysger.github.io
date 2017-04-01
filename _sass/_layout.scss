@@ -200,7 +200,7 @@
 .home {
     position:absolute;
     left:20%;
-    top:250px;
+    top:100px;
     background-image: url("/assets/win31default.png");
     height: 336px;
     width: 512px;
@@ -242,14 +242,18 @@
     font-family: $icon-font-family;
     font-size: 16px;
 }
-.empty-window {
+
+.hidden {
+  display: none;
+}
+
+#project-window {
   position:absolute;
   background-image: url("/assets/win31_large_empty.png");
   height: 400px;
   width: 416px;
   left: 30%;
-  top: 500px;
-  display: none;
+  top: 300px;
   overflow: hidden;
 }
 #close {

@@ -76,8 +76,6 @@ Ship.prototype.constructor = Ship;
 Beam.prototype = Object.create(Asteroid.prototype);
 Beam.prototype.constructor = Beam;
 
-
-
 var MODEL = {
 
   asteroids: [],
@@ -173,25 +171,13 @@ var MODEL = {
   calculateSide: function(side) {
     switch (side[0]) {
       case 1:
-        return {
-          x: 0,
-          y: side[1]
-        };
+        return {x: 0, y: side[1]};
       case 2:
-        return {
-          x: side[1],
-          y: 0
-        };
+        return {x: side[1], y: 0};
       case 3:
-        return {
-          x: 600,
-          y: side[1]
-        };
+        return {x: 600, y: side[1]};
       case 4:
-        return {
-          x: side[1],
-          y: 600
-        };
+        return {x: side[1], y: 600};
       default:
         return "Nothing Here!";
     }
@@ -217,10 +203,7 @@ var MODEL = {
     var asteroids = this.asteroids;
     var ship = this.ships[0];
     for (var i = asteroids.length - 1; i >= 0; i--) {
-      if ((asteroids[i].x + asteroids[i].size + ship.size > ship.x) &&
-        (asteroids[i].y + asteroids[i].size + ship.size > ship.y) &&
-        (asteroids[i].x - asteroids[i].size - ship.size < ship.x) &&
-        (asteroids[i].y - asteroids[i].size - ship.size < ship.y)) {
+      if ((asteroids[i].x + asteroids[i].size + ship.size > ship.x) && (asteroids[i].y + asteroids[i].size + ship.size > ship.y) && (asteroids[i].x - asteroids[i].size - ship.size < ship.x) && (asteroids[i].y - asteroids[i].size - ship.size < ship.y)) {
         MODEL.breakAsteroid(asteroids.splice(i, 1));
         MODEL.ships.shift();
       }
@@ -233,10 +216,7 @@ var MODEL = {
     var i = (asteroids.length - 1)
     while (i >= 0) {
       for (var j = beams.length - 1; j >= 0; j--) {
-        if ((asteroids[i].x + asteroids[i].size > beams[j].x) &&
-          (asteroids[i].y + asteroids[i].size > beams[j].y) &&
-          (asteroids[i].x - asteroids[i].size < beams[j].x) &&
-          (asteroids[i].y - asteroids[i].size < beams[j].y)) {
+        if ((asteroids[i].x + asteroids[i].size > beams[j].x) && (asteroids[i].y + asteroids[i].size > beams[j].y) && (asteroids[i].x - asteroids[i].size < beams[j].x) && (asteroids[i].y - asteroids[i].size < beams[j].y)) {
           beams.splice(j, 1);
           MODEL.breakAsteroid(asteroids.splice(i, 1)[0]);
           MODEL.score++;
@@ -305,7 +285,6 @@ var VIEW = {
     });
   },
 
-
   drawShip: function(ships, canvas) {
     var ship = ships[0];
     var context = canvas.getContext("2d");
@@ -357,7 +336,6 @@ var VIEW = {
     $score.text("Score: " + score + " Lives: " + lives);
     $score.appendTo($('.game'));
   },
-
 
   renderEndGame: function() {
     $(document).off();

@@ -5,7 +5,6 @@ function Snake(x, y) {
   ];
 }
 
-
 view = {
 
   render: function() {
@@ -82,7 +81,6 @@ gridModel = {
     }
   },
 
-
   moveSnake: function() {
     var snakeBody = this.snake.body;
     var x = snakeBody[snakeBody.length - 1][0];
@@ -120,8 +118,7 @@ gridModel = {
       gridModel.grid[oldSnake[0]][oldSnake[1]] = null;
     }
     gridModel.placeSnake();
-  },
-
+  }
 }
 
 controller = {
@@ -212,8 +209,6 @@ controller = {
     });
   }
 }
-
-
 
 $(document).ready(function() {
   controller.init();

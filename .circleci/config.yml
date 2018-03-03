@@ -1,0 +1,11 @@
+version: 2
+jobs:
+  build:
+    docker:
+      - image: ruby:2.5
+    steps:
+      - checkout
+      - run:
+          name: build jekyll
+          command: 'bundle install'
+        

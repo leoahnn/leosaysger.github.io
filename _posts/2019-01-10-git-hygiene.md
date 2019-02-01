@@ -62,7 +62,7 @@ If you're new to Git, simply deleting the offending files might be your first re
 
 Luckily, accidental commits are a common enough occurrence that there are various tools to help scrub a Git repo.
 
-I would recommend using a tool like [BFG Repo-cleaner](https://rtyley.github.io/bfg-repo-cleaner/) or if you need a little more fine-grained control, the git native [git-filter-branch](http://git-scm.com/docs/git-filter-branch)
+I would recommend using a tool like [BFG Repo-cleaner](https://rtyley.github.io/bfg-repo-cleaner/) or if you need a little more fine-grained control, the git native [git-filter-branch](https://git-scm.com/docs/git-filter-branch)
 
 BFG makes it simple to strip your repo of giant files or sensitive passwords. A few simple commands can strip out files that exceed a certain size or redact passwords in one pass.
 
@@ -104,6 +104,6 @@ This reduces the git clone time from ~45 seconds to less than 2 seconds.
 
 - If you commit sensitive data, it will linger in the Git history
 
-- If necessary, consider using [BFG Repo-cleaner](https://rtyley.github.io/bfg-repo-cleaner/) or [git-filter-branch](http://git-scm.com/docs/git-filter-branch)
+- If necessary, consider using [BFG Repo-cleaner](https://rtyley.github.io/bfg-repo-cleaner/) or [git-filter-branch](https://git-scm.com/docs/git-filter-branch)
 
 - If you're using Git, take some time to [learn about it](https://git-scm.com/book/en/v2). It will help you make better Git decisions. And learning how the sausage is made is actually pretty cool.

@@ -15,4 +15,4 @@ Whether you believe that these skills are necessary part of programming or simpl
 
 [Hartl's Rails tutorial]:https://www.railstutorial.org
 [freecodecamp]:https://www.freecodecamp.com
-[discrepancy]:http://blog.triplebyte.com/bootcamps-vs-college
+[discrepancy]:https://blog.triplebyte.com/bootcamps-vs-college

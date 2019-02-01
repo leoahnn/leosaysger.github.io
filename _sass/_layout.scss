@@ -108,8 +108,15 @@
 /**
  * Page content
  */
+.Site {
+    display: flex;
+    min-height: 100vh;
+    flex-direction: column;
+}
+
 .page-content {
     padding: $spacing-unit 0;
+    flex: 1;
 }
 
 .page-heading {
@@ -265,7 +272,26 @@
 
 // about
 
-img {
+.circle {
     margin-bottom:$spacing-unit;
     border-radius: 3px;
+    height: 260px;
+    width: 260px;
+    border-radius: 50%;
+
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    display: inline-block;
+}
+
+.profile {
+    background-image: url('/assets/profile.jpg');
+}
+
+.row {
+    display: flex;
+}
+.column {
+    flex: 50%;
 }

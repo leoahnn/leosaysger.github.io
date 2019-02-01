@@ -30,6 +30,6 @@ print_hi("Leo");
 //=> prints 'Hi, Leo' to STDOUT.
 {% endhighlight %}
 
-[Viking Code School]: http://www.vikingcodeschool.com
-[The Odin Project]: http://www.theodinproject.com
-[FreeCodeCamp]: http://www.freecodecamp.com
+[Viking Code School]: https://www.vikingcodeschool.com
+[The Odin Project]: https://www.theodinproject.com
+[FreeCodeCamp]: https://www.freecodecamp.com
